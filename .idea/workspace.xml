@@ -1,11 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ef77ce45-151e-4062-aeb0-d2f4458f0f56" name="Default Changelist" comment="" />
+    <list default="true" id="ef77ce45-151e-4062-aeb0-d2f4458f0f56" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/StepDefs/TwitterDelete.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/StepDefs/TwitterPost.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/resources/TwitterDelete.Feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/resources/TwitterPost.Feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/StepDefs/ReqResScenarioOuline.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/StepDefs/ReqResScenarioOuline.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/resources/Reqres.Feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/resources/Reqres.Feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/utils/RunCuckesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/utils/RunCuckesTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/cucumber.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/cucumber.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/StepDefs/ReqResScenarioOuline.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/StepDefs/ReqResScenarioOuline.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/utils/RunCuckesTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/utils/RunCuckesTest.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="com.bdd.Cucumber" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -13,6 +29,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -22,6 +41,7 @@
     </option>
   </component>
   <component name="ProjectId" id="1VTS2WjrhcfUbJsYZctBEuYAHtQ" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -31,13 +51,14 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
   </component>
   <component name="RunManager" selected="JUnit.RunCuckesTest">
-    <configuration name="Feature: Reqres" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Feature: TwittGet" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="CUCUMBER_CORE_VERSION" value="1.2" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/resources/Reqres.Feature" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/resources/TwittGet.Feature" />
+      <option name="GLUE" value="StepDefs" />
       <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
       <module name="com.bdd.Cucumber" />
       <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome" />
-      <option name="SUGGESTED_NAME" value="Feature: Reqres" />
+      <option name="SUGGESTED_NAME" value="Feature: TwittGet" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="cucumber.api.cli.*" />
@@ -48,17 +69,34 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Scenario: Testing reqres API" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="CUCUMBER_CORE_VERSION" value="1" />
-      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/resources/Reqres.Feature" />
-      <option name="MAIN_CLASS_NAME" value="cucumber.cli.Main" />
+    <configuration name="Feature: TwitterDelete" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="1.2" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/resources/TwitterDelete.Feature" />
+      <option name="GLUE" value="StepDefs" />
+      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
       <module name="com.bdd.Cucumber" />
-      <option name="NAME_FILTER" value="^Testing reqres API$" />
-      <option name="PROGRAM_PARAMETERS" value=" --format org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome --name &quot;^Testing reqres API$&quot;" />
-      <option name="SUGGESTED_NAME" value="Scenario: Testing reqres API" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome" />
+      <option name="SUGGESTED_NAME" value="Feature: TwitterDelete" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cucumber.cli.*" />
+          <option name="PATTERN" value="cucumber.api.cli.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Feature: TwitterPost" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+      <option name="CUCUMBER_CORE_VERSION" value="1.2" />
+      <option name="FILE_PATH" value="$PROJECT_DIR$/src/test/java/resources/TwitterPost.Feature" />
+      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
+      <module name="com.bdd.Cucumber" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvmSMFormatter --monochrome" />
+      <option name="SUGGESTED_NAME" value="Feature: TwitterPost" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cucumber.api.cli.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -102,9 +140,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.RunCuckesTest" />
+        <item itemvalue="Cucumber java.Feature: TwittGet" />
+        <item itemvalue="Cucumber java.Feature: TwitterDelete" />
+        <item itemvalue="Cucumber java.Feature: TwitterPost" />
         <item itemvalue="Cucumber java.Scenario: " />
-        <item itemvalue="Cucumber java.Feature: Reqres" />
-        <item itemvalue="Cucumber java.Scenario: Testing reqres API" />
       </list>
     </recent_temporary>
   </component>
@@ -133,38 +172,55 @@
     </task>
     <servers />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="WindowStateProjectService">
     <state x="275" y="24" key="#Inspections" timestamp="1577283024238">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="275" y="24" key="#Inspections/0.0.1366.728@0.0.1366.728" timestamp="1577283024238" />
+    <state x="429" y="173" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1577448208743">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="429" y="173" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1366.728@0.0.1366.728" timestamp="1577448208743" />
     <state x="509" y="264" key="Github.CreateGistDialog" timestamp="1577288134020">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="509" y="264" key="Github.CreateGistDialog/0.0.1366.728@0.0.1366.728" timestamp="1577288134020" />
-    <state width="1322" height="174" key="GridCell.Tab.0.bottom" timestamp="1577283191768">
+    <state width="1322" height="278" key="GridCell.Tab.0.bottom" timestamp="1577454572262">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="174" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1577283191768" />
-    <state width="1322" height="174" key="GridCell.Tab.0.center" timestamp="1577283191768">
+    <state width="1322" height="278" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1577454572262" />
+    <state width="1322" height="278" key="GridCell.Tab.0.center" timestamp="1577454572262">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="174" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1577283191768" />
-    <state width="1322" height="174" key="GridCell.Tab.0.left" timestamp="1577283191768">
+    <state width="1322" height="278" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1577454572262" />
+    <state width="1322" height="278" key="GridCell.Tab.0.left" timestamp="1577454572262">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="174" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1577283191768" />
-    <state width="1322" height="174" key="GridCell.Tab.0.right" timestamp="1577283191768">
+    <state width="1322" height="278" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1577454572262" />
+    <state width="1322" height="278" key="GridCell.Tab.0.right" timestamp="1577454572262">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="174" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1577283191768" />
+    <state width="1322" height="278" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1577454572262" />
     <state x="263" y="101" key="IDE.errors.dialog" timestamp="1577287765739">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="263" y="101" key="IDE.errors.dialog/0.0.1366.728@0.0.1366.728" timestamp="1577287765739" />
-    <state x="328" y="96" width="709" height="536" key="find.popup" timestamp="1577281184204">
+    <state x="328" y="96" width="709" height="536" key="find.popup" timestamp="1577452548373">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="328" y="96" width="709" height="536" key="find.popup/0.0.1366.728@0.0.1366.728" timestamp="1577281184204" />
+    <state x="328" y="96" width="709" height="536" key="find.popup/0.0.1366.728@0.0.1366.728" timestamp="1577452548373" />
   </component>
 </project>

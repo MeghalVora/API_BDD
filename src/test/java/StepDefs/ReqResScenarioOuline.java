@@ -36,22 +36,17 @@ public class ReqResScenarioOuline {
 
     }
 
-    @Then("^User should be able to see \"([^\"]*)\"\\.$")
+   @Then("^User should be able to see \"([^\"]*)\"\\.$")
 
 
     public void user_should_be_able_to_see(String arg1) {
 
+         Response response=given()
+                .when().get("<endpoints>");
+              response
+                      .then().body(hasItems("<response codes>"));
 
 
-
-
-
-
-
-
-        //  Response response=given()
-        //        .when().get("<endpoints>");
-       //response.then().statusCode()
     }
 
 
